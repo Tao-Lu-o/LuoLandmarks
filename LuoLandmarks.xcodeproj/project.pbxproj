@@ -14,6 +14,7 @@
 		D35C535B27814C2C00A29BEF /* LuoLandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C535A27814C2C00A29BEF /* LuoLandmarksTests.swift */; };
 		D35C536527814C2C00A29BEF /* LuoLandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C536427814C2C00A29BEF /* LuoLandmarksUITests.swift */; };
 		D35C536727814C2C00A29BEF /* LuoLandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C536627814C2C00A29BEF /* LuoLandmarksUITestsLaunchTests.swift */; };
+		D35C537427839A0D00A29BEF /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D35C537327839A0C00A29BEF /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D35C536027814C2C00A29BEF /* LuoLandmarksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LuoLandmarksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35C536427814C2C00A29BEF /* LuoLandmarksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuoLandmarksUITests.swift; sourceTree = "<group>"; };
 		D35C536627814C2C00A29BEF /* LuoLandmarksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LuoLandmarksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D35C537327839A0C00A29BEF /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		D35C533D27814C2B00A29BEF = {
 			isa = PBXGroup;
 			children = (
+				D35C537327839A0C00A29BEF /* CircleImage.swift */,
 				D35C534827814C2B00A29BEF /* LuoLandmarks */,
 				D35C535927814C2C00A29BEF /* LuoLandmarksTests */,
 				D35C536327814C2C00A29BEF /* LuoLandmarksUITests */,
@@ -259,6 +262,7 @@
 			files = (
 				D35C534C27814C2B00A29BEF /* ContentView.swift in Sources */,
 				D35C534A27814C2B00A29BEF /* LuoLandmarksApp.swift in Sources */,
+				D35C537427839A0D00A29BEF /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
